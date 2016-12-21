@@ -1,0 +1,14 @@
+{
+  "name": "fcc-url",
+  "version": "1.0.0",
+  "description": "Url shortener for freecodecamp's api projects",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Abtahi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
