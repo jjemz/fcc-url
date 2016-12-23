@@ -5,8 +5,8 @@ var port = process.env.PORT || 8080;
 var mongodb = require('mongodb');
 var MongoClient = mongodb.MongoClient;
 
-var url = 'mongodb://localhost:27017/url_db'
-
+//var url = 'mongodb://localhost:27017/url_db'
+var url = 'mongodb://sample:sample@ds113608.mlab.com:13608/url_db'
 
 
 app.listen(port, function(){
