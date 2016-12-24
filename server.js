@@ -66,7 +66,7 @@ MongoClient.connect(url, function(err, db){
 						console.log('No documents found');
 					}
 					
-					db.close();
+					//db.close();
 					//res.send('redirects to ' +  input + ' | '  + redir);
 				})
 				
@@ -75,6 +75,6 @@ MongoClient.connect(url, function(err, db){
 		})
 
 
-		
+		db.close();
 	}
 })
