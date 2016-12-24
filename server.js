@@ -45,7 +45,7 @@ MongoClient.connect(url, function(err, db){
 				})
 
 
-				res.send('shortened url ' + target + ' to ' + req.get('host') + '/' + rand + '|' );
+				res.send('shortened url ' + target + ' to ' + req.get('host') + '/' + rand);
 				
 
 
